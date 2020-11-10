@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-
+<link href="estilo.css" rel="stylesheet">
 <html>
     <body>
-        <h1>
+        <h1 style="color: yellow;">
             Soy la pagina principal del Administrador
         </h1>
-<audio controls autoplay loop>
-	<source  src="musica-Rameses-B-Bae-Bae-1.mp3"  type="audio/mp3">
-</audio>
-<p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-    Eaque modi minus impedit error reprehenderit aspernatur 
-    voluptatem quam, soluta laborum sapiente, dolor eveniet! 
-    Totam hic unde consequatur veniam maiores animi architecto.</p1>
+        
+        <input type="button" value="Cerrar sesion" onclick="salir()" class="btn float-left login_btn">
+
+<br>
+<br>
+
+        <script>
+            function salir(){
+            location.href = "logIn.html"
+            }
+        </script>
+        <audio controls autoplay loop>
+            <source  src="musica-Rameses-B-Bae-Bae-1.mp3"  type="audio/mp3">
+        </audio>
+
     </body>
+
 </html>
